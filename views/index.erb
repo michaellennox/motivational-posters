@@ -20,60 +20,67 @@
 <body>
 
   <header>
-    <div id="head-content">
+    <div class="center-wrapper">
       <h1><strong>Motivational Posters</strong> By Michael</h1>
       <a href="#select-image"><img src="/images/chevron.png" alt="onwards-icon"></a>
     </div>
   </header>
 
   <section id="select-image">
-    <h2>Step 1. Select an image</h2>
-    <p>Enter the keyword to search for images</p>
-    <form id="search-form">
-      <input id="search-term" type="text">
-      <input id="submit-search" type="submit" value="Go!">
-    </form>
-    <div id="search-results"></div>
-    <div id="google-branding"></div>
-    <img src="/images/chevron.png" alt="onwards-icon">
+    <div class="center-wrapper">
+      <h2>Step 1. Select an image</h2>
+      <p>Enter the keyword to search for images</p>
+      <form id="search-form">
+        <input id="search-term" type="text">
+        <input id="submit-search" type="submit" value="Go!">
+      </form>
+      <div id="search-results"></div>
+      <div id="google-branding"></div>
+      <a href="#add-text"><img src="/images/chevron.png" alt="onwards-icon"></a>
+    </div>
   </section>
 
   <section id="add-text">
-    <h2>Step 2. Add text</h2>
-    <input id="caption-text" type="text" value="Curiosity is one of the great secrets of happiness">
-    <img src="/images/chevron.png" alt="onwards-icon">
+    <div class="center-wrapper">
+      <h2>Step 2. Add text</h2>
+      <input id="caption-text" type="text" value="Curiosity is one of the great secrets of happiness">
+      <img src="/images/chevron.png" alt="onwards-icon">
+    </div>
   </section>
 
   <section id="style-caption">
-    <h2>Step 3. Style it!</h2>
-    <div id="workspace">
-      <p id="caption"></p>
+    <div class="center-wrapper">
+      <h2>Step 3. Style it!</h2>
+      <div id="workspace">
+        <p id="caption"></p>
+      </div>
+      <div id="caption-controls">
+        Left: <input type="number" value="10" id="caption-left">
+        Top: <input type="number" value="10" id="caption-top">
+        Width: <input type="number" value="400" id="caption-width">
+        Size: <input type="number" value="32" id="caption-size">
+        Colour: <select id="caption-colour">
+          <option>red</option>
+          <option>green</option>
+          <option>white</option>
+          <option>black</option>
+          <option>blue</option>
+          <option>yellow</option>
+          <option>gray</option>
+          <option>orange</option>
+        </select>
+        Align: <select id="caption-align">
+          <option>left</option>
+          <option>center</option>
+          <option>right</option>
+        </select>
+      </div>
+      <div id="twitter">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="michaelctlennox">Tweet</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      </div>
     </div>
-    <div id="caption-controls">
-      Left: <input type="number" value="10" id="caption-left">
-      Top: <input type="number" value="10" id="caption-top">
-      Width: <input type="number" value="400" id="caption-width">
-      Size: <input type="number" value="32" id="caption-size">
-      Colour: <select id="caption-colour">
-        <option>red</option>
-        <option>green</option>
-        <option>white</option>
-        <option>black</option>
-        <option>blue</option>
-        <option>yellow</option>
-        <option>gray</option>
-        <option>orange</option>
-      </select>
-      Align: <select id="caption-align">
-        <option>left</option>
-        <option>center</option>
-        <option>right</option>
-      </select>
-    </div>
-    <div id="twitter">
-      <a href="https://twitter.com/share" class="twitter-share-button" data-via="michaelctlennox">Tweet</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-    </div>
+
   </section>
 
   <footer>
