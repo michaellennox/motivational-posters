@@ -2,9 +2,19 @@ body {
   background-image: url(/images/grey.png);
 }
 
+#caption {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
 #workspace {
+  position: relative;
   width: 600px;
   min-height: 300px;
   border: 5px dashed red;
   margin: 0 auto;
+}
+
+#worksace img {
+  width: 600px;
 }
