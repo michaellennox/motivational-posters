@@ -30,6 +30,10 @@ header strong {
   color: #fccdd3;
 }
 
+.scroll {
+  margin-top: 50px;
+}
+
 section {
   height: 50vh;
   display: flex;
