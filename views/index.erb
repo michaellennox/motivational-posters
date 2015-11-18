@@ -12,6 +12,8 @@
 
   <script src="https://www.google.com/jsapi"></script>
   <script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script>new WOW().init();</script>
   <script src="/javascripts/support.js"></script>
   <script src="/javascripts/application.js"></script>
 
@@ -22,14 +24,14 @@
 <body>
 
   <header>
-    <div class="center-wrapper">
+    <div class="center-wrapper animated slideInDown">
       <h1><strong>Motivational Posters</strong> By Michael</h1>
       <a href="#select-image" class="scroller"><img src="/images/chevron.png" alt="onwards-icon" class="scroll animated infinite bounce"></a>
     </div>
   </header>
 
   <section id="select-image">
-    <div class="center-wrapper">
+    <div class="center-wrapper wow bounceInRight">
       <h2>Step 1. Select an image</h2>
       <p>Enter the keyword to search for images</p>
       <form id="search-form">
@@ -50,7 +52,7 @@
   </section>
 
   <section id="style-caption">
-    <div class="center-wrapper">
+    <div class="center-wrapper wow bounceInUp">
       <h2>Step 3. Style it!</h2>
       <div id="workspace">
         <p id="caption"></p>
@@ -91,7 +93,7 @@
         <a href="https://twitter.com/share" class="twitter-share-button" data-via="michaelctlennox">Tweet</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
       </div>
-      <a href="#footer" class="scroller"><img src="/images/chevron.png" alt="onwards-icon" class="scroll animated infinite bounce"></a>
+      <a href="#footer" class="scroller"><img src="/images/chevron.png" alt="onwards-icon" class="scroll"></a>
     </div>
 
   </section>
