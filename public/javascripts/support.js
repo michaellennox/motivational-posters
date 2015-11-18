@@ -6,7 +6,7 @@ function findImagesOnGoogle(options) {
 
   var imageSearch = new google.search.ImageSearch();
   imageSearch.setSearchCompleteCallback(this, createSearchCompleteCallback(imageSearch, options), null);
-  imageSearch.setResultSetSize(8);
+  imageSearch.setResultSetSize(4);
   imageSearch.execute(options.keywords);
 };
 
