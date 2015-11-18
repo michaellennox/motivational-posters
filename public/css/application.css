@@ -105,6 +105,14 @@ input {
   margin: 0;
 }
 
+.activeimg {
+  border: 2px solid #fccdd3;
+}
+
+.hide {
+  display: none;
+}
+
 footer {
   background-color: #62bcfa;
   padding: 10px;

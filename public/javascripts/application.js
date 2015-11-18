@@ -10,8 +10,11 @@ $(document).on('submit', '#search-form', function(e) {
 $(document).on('click', '#search-results img', function() {
   var url = $(this).data('url');
   $("#workspace img").remove();
+  $(".activeimg").removeClass('activeimg');
   var img = $("<img>").attr('src', url);
+  $(this).addClass('activeimg');
   $('#workspace').append(img);
+  $('.hide').addClass('animated bounceInUp').removeClass('hide');
 })
 
 $(document).on('ready', function() {
