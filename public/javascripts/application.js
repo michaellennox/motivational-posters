@@ -45,3 +45,7 @@ $(document).on('change', '#caption-colour', function() {
 $(document).on('change', '#caption-align', function() {
   $("#caption").css("text-align", $(this).val());
 });
+
+$(document).on('change', '#caption-font', function() {
+  $("#caption").css("font-family", $(this).val());
+});
